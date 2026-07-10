@@ -13,7 +13,7 @@ const images = import.meta.glob("../assets/images/*", {
 
 function resolveImage(file: string) {
   const entry = Object.entries(images).find(([path]) =>
-    path.endsWith(`/${file}`)
+    path.endsWith(`/${file}`),
   );
   return entry?.[1] ?? "";
 }
@@ -26,7 +26,7 @@ export default function Projects() {
       <div className="max-w-6xl mx-auto px-6">
         <SectionHeading
           title="Projetos"
-          subtitle="Confira os meus projetos"
+          subtitle="Confira meus principais projetos, que evoluem continuamente com novos conhecimentos, tecnologias e boas práticas de desenvolvimento."
         />
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">

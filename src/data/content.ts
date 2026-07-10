@@ -210,35 +210,12 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    title: "Consulta CEP",
-    stack: "JavaScript | CSS",
-    description:
-      "Consulta de endereços em tempo real a partir do CEP informado.",
-    image: "cep.png",
-    github: "https://github.com/Geeh17/ConsultaCep",
-  },
-  {
-    title: "Previsão do Tempo",
-    stack: "JavaScript | HTML",
-    description:
-      "Aplicação de consulta climática por cidade, consumindo API pública de meteorologia.",
-    image: "tempo.png",
-    github: "https://github.com/Geeh17/Previsao-do-Tempo",
-  },
-  {
-    title: "Sistema de Anotações",
-    stack: "React | CSS",
-    description:
-      "Aplicativo de anotações com criação, edição e exclusão de notas.",
-    image: "anotacao.png",
-    github: "https://github.com/Geeh17/SistemadeAnota-es",
-  },
-  {
-    title: "Consulta de Carros",
-    stack: "ASP.NET Core Web API | Blazor",
-    description: "API e interface para consulta de veículos por placa/modelo.",
-    image: "carro.png",
-    github: "https://github.com/Geeh17/ConsultaCarros",
+    title: "Sistema de Controle Financeiro Automatizado",
+    stack: "Node.js + Express | Next.js 14 (App Router) + TypeScript | N8N",
+    description: "Aplicação web para controle de receitas e despesas pessoais.",
+    image: "controleF.png",
+    github:
+      "https://github.com/Geeh17/Sistema-de-Controle-Financeiro-Automatizado-com-n8n",
   },
   {
     title: "Sistema de Produtos",
@@ -249,14 +226,6 @@ export const projects: Project[] = [
     github: "https://github.com/Geeh17/GestaoV",
   },
   {
-    title: "Templates de Sites",
-    stack: "HTML | CSS | JavaScript",
-    description:
-      "Coleção de templates estáticos responsivos para diferentes nichos.",
-    image: "templates.png",
-    github: "https://github.com/Geeh17/Templates",
-  },
-  {
     title: "Controle OS - Advogados",
     stack: "Node.js | React | Tailwind CSS",
     description:
@@ -265,42 +234,28 @@ export const projects: Project[] = [
     github: "https://github.com/Geeh17/SistemaAdvogados",
   },
   {
-    title: "BarberShop",
-    stack: "HTML | CSS | JavaScript",
-    description: "Landing page e sistema de agendamento para barbearia.",
-    image: "projetorbarber.png",
-    github: "https://github.com/Geeh17/Barbearia",
-  },
-  {
-    title: "AppPromoções",
-    stack: "React Native",
-    description:
-      "Aplicativo mobile para listagem e busca de promoções, com navegação por categorias.",
-    image: "AppPromo.png",
-    github: "https://github.com/Geeh17/AppPromocoes",
-  },
-  {
-    title: "Registros e Despesas",
-    stack: "Javascript | Css",
-    description:
-      "Controle financeiro pessoal com registro de entradas e saídas e saldo em tempo real.",
-    image: "registro.png",
-    github: "https://github.com/Geeh17/Despesas-JS",
-  },
-  {
-    title: "Loja de Móveis",
-    stack: "C# MVC | SQL Server",
-    description:
-      "E-commerce de móveis com catálogo, carrinho e painel administrativo em MVC.",
-    image: "lojaMoveis.png",
-    github: "https://github.com/Geeh17/Loja_Moveis",
-  },
-  {
     title: "API de Fundos de Investimentos",
     stack: "Node | Prisma",
     description:
       "API REST para controle e acompanhamento de fundos imobiliários com autenticação JWT.",
     image: "api.png",
     github: "https://github.com/Geeh17/SistemadeControleFundosImobiliarios",
+  },
+  {
+    title: "Sistema de Agendamento",
+    stack: "C# + ASP.NET Core 8 | JavaScript (Vanilla) | SQL Server + EF Core",
+    description:
+      "Aplicação completa para gestão de agendamentos, compromissos e tarefas.",
+    image: "agendamentos.png",
+    github: "https://github.com/Geeh17/SistemaAgendamento",
+  },
+  {
+    title: "Sistema Oficina — Painel de Gestão",
+    stack:
+      "Node.js + Express 5 + MongoDB | React 19 + TypeScript + Tailwind CSS 4",
+    description:
+      "Sistema completo de gestão para oficina de motos: clientes, motos, ordens de serviço, estoque de peças,financeiro/caixa, agenda de horários e controle de funcionários.",
+    image: "Oficina.png",
+    github: "https://github.com/Geeh17/SistemaOficina",
   },
 ];
