@@ -211,15 +211,16 @@ export type Project = {
 export const projects: Project[] = [
   {
     title: "Sistema de Controle Financeiro Automatizado",
-    stack: "Node.js + Express | Next.js 14 (App Router) + TypeScript | N8N",
+    stack: "Node.js + Express | Next.js 14 + TypeScript | N8N",
     description: "Aplicação web para controle de receitas e despesas pessoais.",
     image: "controleF.png",
     github:
       "https://github.com/Geeh17/Sistema-de-Controle-Financeiro-Automatizado-com-n8n",
   },
   {
-    title: "Sistema de Produtos",
-    stack: "React | C#",
+    title: "GestaoV - Sistema de Gerenciamento de Produtos e Usuários",
+    stack:
+      "React 18 + Tailwind CSS | ASP.NET Core Web API + Entity Framework Core + SQL Server + Swagger",
     description:
       "Gestão de produtos com cadastro, edição e controle de estoque.",
     image: "gestao.png",
@@ -234,8 +235,8 @@ export const projects: Project[] = [
     github: "https://github.com/Geeh17/SistemaAdvogados",
   },
   {
-    title: "API de Fundos de Investimentos",
-    stack: "Node | Prisma",
+    title: "API de Controle de Usuários e Ativos",
+    stack: " Node Js | Prisma | Google OAuth | MySQL",
     description:
       "API REST para controle e acompanhamento de fundos imobiliários com autenticação JWT.",
     image: "api.png",
