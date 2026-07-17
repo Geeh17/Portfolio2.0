@@ -244,7 +244,7 @@ export const projects: Project[] = [
   },
   {
     title: "Sistema de Agendamento",
-    stack: "C# + ASP.NET Core 8 | JavaScript (Vanilla) | SQL Server + EF Core",
+    stack: "C# + ASP.NET Core 8 | JavaScript | SQL Server + EF Core",
     description:
       "Aplicação completa para gestão de agendamentos, compromissos e tarefas.",
     image: "agendamentos.png",
